@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
+// import Home from './components/Home';
+import Routes from './route/Routes';
 
 class App extends Component {
   render() {
@@ -15,7 +15,8 @@ class App extends Component {
       //     To get started, edit <code>src/App.js</code> and save to reload.
       //   </p>
       // </div>
-      <Home msg="Tampilan Home"/>
+      // <Home msg="Tampilan Home"/>
+      <Routes/>
     );
   }
 }
